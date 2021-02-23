@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Happy" title="Happy" src=".github/logo.svg" />
+    <img alt="Happy" title="Happy" src=".github/title.png" />
 </h1>
 
 <p align="center">
@@ -18,10 +18,6 @@
 # Happy
  
 Happy is an application that connects people to institutional care homes to make many children's day happier 💜
-
-## Presentation:
-
-
 
 ## Technologies
 
