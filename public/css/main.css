@@ -8,14 +8,19 @@ body {
     color: white;
 }
 
+:root {
+    font-size: 62.5%; /*Equivale a 10px*/ /*Isso vale para versão mobile, pois mudando aqui vai refletir para todos os valores abaixo*/
+}
+
 body, input, button, textarea { /*Colocando styles para todos esses elementos*/
     /*font-size: 18px;
     line-height: 1;
     font-weight: 400;
     font-family: 'Nunito', sans-serif;*/
     /*Código acima substituido pelo debaixo: */
-    font: 400 18px/1 'Nunito', sans-serif;
+    font: 400 1.8rem/1 'Nunito', sans-serif;
 }
+
 
 #page-landing {
     background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
