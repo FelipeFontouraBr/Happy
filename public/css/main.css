@@ -72,3 +72,24 @@ body, input, button, textarea { /*Colocando styles para todos esses elementos*/
     animation-duration: 300ms;
     animation-fill-mode: backwards; /*Para a animação e as propriedades ficam no elemento aplicado*/
 }
+
+/* SEPARANDO OS ELEMENTOS PARA TEREM PROPRIEDADES DE TEMPO PARA APARIÇÃO DE CADA UM*/
+#logo {
+    animation-delay: 100ms;
+}
+
+.location {
+    animation-delay: 150ms;
+}
+
+main h1 {
+    animation-delay: 200ms;
+}
+
+.visit p {
+    animation-delay: 250ms;
+}
+
+.visit a {
+    animation-delay: 300ms;
+}
