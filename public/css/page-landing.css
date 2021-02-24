@@ -31,6 +31,12 @@ h1,
   justify-content: center; /*Irá alinhar o eixo x para se alinhar ao eixo y*/
 
   margin: auto; /*Alinha a todos cantos*/
+  transition: background 200ms; /*Tempo para o hover*/
+}
+
+.visit a:hover {
+    background: #96feff;
+    
 }
 
 /* TEMPO DAS ANIMAÇÕES - SEPARANDO OS ELEMENTOS PARA TEREM PROPRIEDADES DE TEMPO PARA APARIÇÃO DE CADA UM*/
