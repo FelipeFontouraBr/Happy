@@ -8,6 +8,13 @@ body {
     color: white;
 }
 
+body, input, button, textarea { /*Colocando styles para todos esses elementos*/
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
 #page-landing {
     background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
 
