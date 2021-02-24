@@ -38,3 +38,17 @@ body, input, button, textarea { /*Colocando styles para todos esses elementos*/
 .location, h1, .visit p {
     height: 16vh;
 }
+
+.visit a {
+    width: 8rem;
+    height: 8rem;
+    background: #ffd666;
+
+    border: none;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center; /*Alinhamento de cima para baixo, no eixo y e vai alinhar no eixo x*/
+    justify-content: center; /*Irá alinhar o eixo x para se alinhar ao eixo y*/
+
+    margin: auto; /*Alinha a todos cantos*/
+}
