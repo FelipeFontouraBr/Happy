@@ -33,6 +33,7 @@ body, input, button, textarea { /*Colocando styles para todos esses elementos*/
 
 #container {
     margin: auto; /*Esta sendo alinhado em todos cantos da tela, encima, baixo, e os lados*/
+    width: 90%;/*Limitamos o width. para a margem ser maior*/
 }
 
 .location, h1, .visit p {
@@ -51,4 +52,23 @@ body, input, button, textarea { /*Colocando styles para todos esses elementos*/
     justify-content: center; /*Irá alinhar o eixo x para se alinhar ao eixo y*/
 
     margin: auto; /*Alinha a todos cantos*/
+}
+
+/* ANIMACOES */
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-up {
+    animation-name: up;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards; /*Para a animação e as propriedades ficam no elemento aplicado*/
 }
