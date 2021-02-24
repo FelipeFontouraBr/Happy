@@ -1,53 +1,55 @@
 #page-landing {
-    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
 
-    text-align: center; /*Texto alinhados ao centro*/
-    min-height: 100vh;
+  text-align: center; /*Texto alinhados ao centro*/
+  min-height: 100vh;
 
-    display: flex; /*Coloquei display flex a caixa principal*/
-    /*align-items: center; /*Alinhe os items ao centro. porém apenas em cima e em baixo*/
+  display: flex; /*Coloquei display flex a caixa principal*/
+  /*align-items: center; /*Alinhe os items ao centro. porém apenas em cima e em baixo*/
 }
 
 #container {
-    margin: auto; /*Esta sendo alinhado em todos cantos da tela, encima, baixo, e os lados*/
-    width: 90%;/*Limitamos o width. para a margem ser maior*/
+  margin: auto; /*Esta sendo alinhado em todos cantos da tela, encima, baixo, e os lados*/
+  width: 90%; /*Limitamos o width. para a margem ser maior*/
 }
 
-.location, h1, .visit p {
-    height: 16vh;
+.location,
+h1,
+.visit p {
+  height: 16vh;
 }
 
 .visit a {
-    width: 8rem;
-    height: 8rem;
-    background: #ffd666;
+  width: 8rem;
+  height: 8rem;
+  background: #ffd666;
 
-    border: none;
-    border-radius: 3rem;
-    display: flex;
-    align-items: center; /*Alinhamento de cima para baixo, no eixo y e vai alinhar no eixo x*/
-    justify-content: center; /*Irá alinhar o eixo x para se alinhar ao eixo y*/
+  border: none;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center; /*Alinhamento de cima para baixo, no eixo y e vai alinhar no eixo x*/
+  justify-content: center; /*Irá alinhar o eixo x para se alinhar ao eixo y*/
 
-    margin: auto; /*Alinha a todos cantos*/
+  margin: auto; /*Alinha a todos cantos*/
 }
 
 /* TEMPO DAS ANIMAÇÕES - SEPARANDO OS ELEMENTOS PARA TEREM PROPRIEDADES DE TEMPO PARA APARIÇÃO DE CADA UM*/
 #logo {
-    animation-delay: 100ms;
+  animation-delay: 100ms;
 }
 
 .location {
-    animation-delay: 150ms;
+  animation-delay: 150ms;
 }
 
 main h1 {
-    animation-delay: 200ms;
+  animation-delay: 200ms;
 }
 
 .visit p {
-    animation-delay: 250ms;
+  animation-delay: 250ms;
 }
 
 .visit a {
-    animation-delay: 300ms;
+  animation-delay: 300ms;
 }

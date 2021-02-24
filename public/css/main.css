@@ -1,25 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    height: 100vh; /*Ocupa toda tela*/
-    color: white;
+  height: 100vh; /*Ocupa toda tela*/
+  color: white;
 }
 
 :root {
-    font-size: 62.5%; /*Equivale a 10px*/ /*Isso vale para versão mobile, pois mudando aqui vai refletir para todos os valores abaixo*/
+  font-size: 62.5%; /*Equivale a 10px*/ /*Isso vale para versão mobile, pois mudando aqui vai refletir para todos os valores abaixo*/
 }
 
-body, input, button, textarea { /*Colocando styles para todos esses elementos*/
-    /*font-size: 18px;
+body,
+input,
+button,
+textarea {
+  /*Colocando styles para todos esses elementos*/
+  /*font-size: 18px;
     line-height: 1;
     font-weight: 400;
     font-family: 'Nunito', sans-serif;*/
-    /*Código acima substituido pelo debaixo: */
-    font: 400 1.8rem/1 'Nunito', sans-serif;
+  /*Código acima substituido pelo debaixo: */
+  font: 400 1.8rem/1 "Nunito", sans-serif;
 }
-
-
-
