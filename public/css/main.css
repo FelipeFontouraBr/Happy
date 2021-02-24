@@ -21,10 +21,20 @@ body, input, button, textarea { /*Colocando styles para todos esses elementos*/
     font: 400 1.8rem/1 'Nunito', sans-serif;
 }
 
-
 #page-landing {
     background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
 
     text-align: center; /*Texto alinhados ao centro*/
     min-height: 100vh;
+
+    display: flex; /*Coloquei display flex a caixa principal*/
+    /*align-items: center; /*Alinhe os items ao centro. porém apenas em cima e em baixo*/
+}
+
+#container {
+    margin: auto; /*Esta sendo alinhado em todos cantos da tela, encima, baixo, e os lados*/
+}
+
+.location, h1, .visit p {
+    height: 16vh;
 }
