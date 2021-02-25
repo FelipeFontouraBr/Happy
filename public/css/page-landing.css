@@ -70,4 +70,7 @@ main h1 {
     height: initial; /*Colocando o valor na inicial, antes estava em 16vh na versão mobile, e isso fazia ficar desalinhadao*/
     text-align: initial; /*Volta ao alinhamento inicial*/
   }
+  .location {
+    text-align: right; /*Alinhamento ao lado direito*/
+  }
 }
