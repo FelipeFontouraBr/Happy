@@ -10,7 +10,7 @@
 
 #container {
   margin: auto; /*Esta sendo alinhado em todos cantos da tela, encima, baixo, e os lados*/
-  width: 90%; /*Limitamos o width. para a margem ser maior*/
+  width: min(90%, 112rem); /*Limitamos o width. para a margem ser maior*//*112 rem é 1120 px*/
 }
 
 .location, h1, .visit p {
@@ -63,9 +63,11 @@ main h1 {
   header {
     display: flex; /*Todo conteúdo ficará um ao lado do outro*/
     align-items: center; 
+    justify-content: space-between; /*Propriedades apenas para display flex e grid, dividi o conteudo*/
   }
 
   .location, h1, .visit p {
     height: initial; /*Colocando o valor na inicial, antes estava em 16vh na versão mobile, e isso fazia ficar desalinhadao*/
+    text-align: initial; /*Volta ao alinhamento inicial*/
   }
 }
