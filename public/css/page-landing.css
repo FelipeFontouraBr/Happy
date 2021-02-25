@@ -13,9 +13,7 @@
   width: 90%; /*Limitamos o width. para a margem ser maior*/
 }
 
-.location,
-h1,
-.visit p {
+.location, h1, .visit p {
   height: 16vh;
 }
 
@@ -58,4 +56,16 @@ main h1 {
 
 .visit a {
   animation-delay: 300ms;
+}
+
+/* desktop version */
+@media (min-width: 760px) { /*Quando a tela tiver o mínimo de 760px para cima, começa a valer as regras abaixo: */
+  header {
+    display: flex; /*Todo conteúdo ficará um ao lado do outro*/
+    align-items: center; 
+  }
+
+  .location, h1, .visit p {
+    height: initial; /*Colocando o valor na inicial, antes estava em 16vh na versão mobile, e isso fazia ficar desalinhadao*/
+  }
 }
