@@ -84,10 +84,20 @@ main h1 {
     width: min(300px, 80%); /*limite de largura do texto*/
   }
 
+  .visit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .visit p {
     font-size: 2.4rem;
     line-height: 1.5;
     width: clamp(20rem, 30vw, 32rem); /*20rem significa 20px*//*min: 20px, 20vh tamanho da tela, e máx: 30px*/
+  }
+
+  .visit a {
+    margin: initial;
   }
 
 }
