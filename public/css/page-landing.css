@@ -48,6 +48,7 @@
 
 main h1 {
   animation-delay: 200ms;
+  font-size: clamp(4rem, 8vw, 8.4rem); /*8 pedaços do 100 pedaços da tela*//*Clamp: min, qual valor, e qual o máximo*/
 }
 
 .visit p {
@@ -73,4 +74,11 @@ main h1 {
   .location {
     text-align: right; /*Alinhamento ao lado direito*/
   }
+
+  main h1 {
+    font-weight: bold;
+
+    width: min(300px, 80%); /*limite de largura do texto*/
+  }
+
 }
