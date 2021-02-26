@@ -77,7 +77,8 @@ main h1 {
 
   main h1 {
     font-weight: bold;
-
+    line-height: .88;
+    margin: clamp(10%, 9vh, 12%) 0 4rem;
     width: min(300px, 80%); /*limite de largura do texto*/
   }
 
