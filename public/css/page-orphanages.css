@@ -9,4 +9,9 @@ aside {
     width: clamp(24rem, 25vw, 44rem);
     background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
     padding: 8rem;
+
+    /*Separação do conteúdo*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*Espaço entre os elementos*/
 }
