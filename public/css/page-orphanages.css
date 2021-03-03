@@ -25,3 +25,7 @@ aside p {
     margin-top: 2.4rem;
     font: 400 1.6rem/1.5 'Nunito', sans-serif;
 }
+
+aside footer p {
+    margin-top: .8rem;
+}
