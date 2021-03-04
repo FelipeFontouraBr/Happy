@@ -47,3 +47,7 @@ a.create-orphanage {
     justify-content: center;
     align-items: center;
 }
+
+a.create-orphanage:hover {
+    background: #17d6eb;
+}
