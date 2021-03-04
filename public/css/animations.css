@@ -17,3 +17,18 @@
   animation-duration: 300ms;
   animation-fill-mode: backwards; /*Para a animação e as propriedades ficam no elemento aplicado*/
 }
+
+/*Animação da Barra, saindo da esquerda para direita - page-orphanages*/
+@keyframes right {
+  from {
+    transform: translateX(-100%);     
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-right {
+  animation-name: right;
+  animation-duration: 300ms;
+}
