@@ -21,10 +21,7 @@ const popup = L.popup({
 }).setContent('Lar das menindas <a href="orphanage.html?id=1" class="choose-orphanage"><img src="./public/images/arrow-white.svg"></a>') //será colocado um conteúdo aqui dentro
 
 //create and add marker
-
-
 L
-.marker([38.8795955,-6.9802756])
+.marker([38.8795955,-6.9802756], { icon: icon })
 .addTo(map)
-.bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-.openPopup()
+.bindPopup(popup)
