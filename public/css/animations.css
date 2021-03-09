@@ -46,4 +46,5 @@
 .animate-appear {
   animation-name: appear;
   animation-duration: 300ms;
+  animation-fill-mode: backwards; /*Vai começar do zero, e vai parar no 1*/
 }
