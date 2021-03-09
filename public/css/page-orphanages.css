@@ -63,5 +63,14 @@ a.create-orphanage:hover {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 20px;
     box-shadow: 17.2828px 27.65px 41.48px rgba(23, 142,166, 0.16);
+}
 
+.leaflet-popup-content {
+    color: #0089A5;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: .8rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
