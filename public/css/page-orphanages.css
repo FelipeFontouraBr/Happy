@@ -66,8 +66,6 @@ a.create-orphanage:hover {
 
 .leaflet-popup-content {
     color: #0089A5;
-    font-size: 2rem;
-    font-weight: 600;
     margin: .8rem 1.2rem;
     display: flex;
     align-items: center;
@@ -89,4 +87,12 @@ a.create-orphanage:hover {
 
 .leaflet-popup-content a:hover {
     background: #17d6eb;
+}
+
+.leaflet-popup-tip {
+    display: none;
+}
+
+.leaflet-container {
+    font: 700 2rem/1 'Nunito', sans-serif;
 }
