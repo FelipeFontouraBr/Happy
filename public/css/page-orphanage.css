@@ -15,6 +15,25 @@ aside.sidebar {
     align-items: center;
 }
 
+aside.sidebar footer button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: #12afcb;
+    border-radius: 1.6rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.s
+}
+
+aside.sidebar footer button:hover {
+    background: #17d6eb;
+}
+
 .with-sidebar {
-    padding-left: 96px;
+    padding-left: 96px;    
 }
