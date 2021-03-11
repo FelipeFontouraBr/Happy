@@ -37,3 +37,11 @@ aside.sidebar footer button:hover {
 .with-sidebar {
     padding-left: 96px;    
 }
+
+/* details */
+.orphanage-details {
+    width: 700px;
+    margin: 6.4rem;
+    background: white;
+    border: 1px solid #d3e2e5;
+}
