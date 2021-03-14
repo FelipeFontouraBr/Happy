@@ -48,7 +48,7 @@ aside.sidebar footer button:hover {
     border-radius: 2rem;    
 }
 
-.orphanage-details > img {
+.orphanage-details > img { /*Primeira imagem abaixo*/
     width: 100%;
     height: 30rem;
     object-fit: cover; /*Vai esticar proporcionalmente dentro da div*/
