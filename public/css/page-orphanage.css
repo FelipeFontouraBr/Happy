@@ -40,8 +40,8 @@ aside.sidebar footer button:hover {
 
 /* details */
 .orphanage-details {
-    width: 700px;
-    margin: 6.4rem;
+    width: 70rem;
+    margin: 6.4rem auto;
     background: white;
     border: 1px solid #d3e2e5;
 
@@ -52,4 +52,11 @@ aside.sidebar footer button:hover {
     width: 100%;
     height: 30rem;
     object-fit: cover; /*Vai esticar proporcionalmente dentro da div*/
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /*Aqui descrevo a quantidade de coluna e o tamanho*/
+    column-gap: 1.6rem;
+    margin: 16px 40px 0;
 }
