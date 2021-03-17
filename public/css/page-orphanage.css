@@ -72,6 +72,10 @@ aside.sidebar footer button:hover {
     opacity: .6;
 }
 
+.images button:hover {
+    opacity: 1;
+}
+
 .images button img {
     width: 100%;
     height: 8.8rem;
