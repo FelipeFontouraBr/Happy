@@ -64,7 +64,12 @@ aside.sidebar footer button:hover {
 .images button {
     border: 0;
     background: none;
+    height: 8.8rem;
+    cursor: pointer;
+    border-radius: 2rem;
 
+    overflow: hidden;/*Limitação da caixa do button, para o conteudo se encaixar*/
+    opacity: .6;
 }
 
 .images button img {
