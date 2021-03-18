@@ -72,6 +72,8 @@ aside.sidebar footer button:hover {
 
     overflow: hidden;/*Limitação da caixa do button, para o conteudo se encaixar*/
     opacity: .6;
+
+    transition: opacity 2ms;
 }
 
 .images button:hover,
