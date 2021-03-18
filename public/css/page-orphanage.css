@@ -100,6 +100,13 @@ aside.sidebar footer button:hover {
     margin-bottom: 0.8rem;
 }
 
+.orphanage-details-content h2 {
+    color: #4d6f80;
+    font-size: 3.6rem;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+}
+
 .orphanage-details-content p {
     line-height: 1.6;
     color: #5c8599;
@@ -140,6 +147,6 @@ aside.sidebar footer button:hover {
 }
 
 .map-container .leaflet-container {
-    border-bottom: 1px solid #dd3f0;
+    border-bottom: 1px solid #dde3f0;
     border-radius: 2rem;
 }
