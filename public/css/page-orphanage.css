@@ -38,6 +38,11 @@ aside.sidebar footer button:hover {
     padding-left: 110px;    
 }
 
+/*Configuração do main, para deixar a tela ao centro*/
+main {
+    flex: 1; /*Como o main estava em flex, ao adotarmos 1 ao primeiro filho, a tela centraliza*/
+}
+
 /* details */
 .orphanage-details {
     width: 70rem;
