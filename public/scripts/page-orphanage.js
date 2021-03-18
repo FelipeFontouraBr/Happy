@@ -8,7 +8,7 @@ const options = {
 
 
 //Create map
-const map = L.map('mapid').setView([38.8795955,-6.9802756], 15)
+const map = L.map('mapid', options).setView([38.8795955,-6.9802756], 15)
 
 //create and add tileLayer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map)
