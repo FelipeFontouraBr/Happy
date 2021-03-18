@@ -25,3 +25,23 @@ const icon = L.icon({
 L
 .marker([38.8795955,-6.9802756], { icon: icon })
 .addTo(map)
+
+/* image gallery */
+function selectImage(event) {
+    const button = event.currentTarget
+
+    // remover todas as classes .active
+    // lógica: o programa irá percorrer um botão de cada vez e remover a classe active
+    const buttons = document.querySelectorAll(".images button") //pesquise por todos seletores que vamos passar por argumento
+    buttons.forEach(removeActiveClass) //funcionalidades do NodeList //Para cada botão, irá fazer essa funcionalidade
+
+    function removeActiveClass(button) {
+        button.classList.remove("active") //Na lista de classe, remove a classe active
+    }
+
+    // selecionar a imagem clicada
+
+    // atualizar o container de image 
+
+    // tudo ok, adicionar de volta a classe .active para este botão que foi clicado
+}
