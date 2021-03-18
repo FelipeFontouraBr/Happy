@@ -118,3 +118,13 @@ aside.sidebar footer button:hover {
     width: 100%;
     height: 28rem;
 }
+
+.map-container footer {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.map-container footer a {
+    color: #0089a5;
+    text-decoration: none;
+}
