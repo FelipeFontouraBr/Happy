@@ -28,7 +28,7 @@ L
 
 /* image gallery */
 function selectImage(event) {
-    const button = event.currentTarget
+    const button1 = event.currentTarget
 
     // remover todas as classes .active
     // lógica: o programa irá percorrer um botão de cada vez e remover a classe active
@@ -44,4 +44,5 @@ function selectImage(event) {
     // atualizar o container de image 
 
     // tudo ok, adicionar de volta a classe .active para este botão que foi clicado
+    button1.classList.add('active') // Quando clico, deixo a classe ativa
 }
