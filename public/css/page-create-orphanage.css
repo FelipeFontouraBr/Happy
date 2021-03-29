@@ -7,6 +7,19 @@ main {
     flex: 1;
 }
 
+.map-container {
+    margin: 0 0 4rem;
+}
+
+.map-container .leaflet-container {
+    border-radius: 20px 20px 0 0;
+
+}
+
+.map-container footer {
+    
+}
+
 form {
     width: 70rem;
     margin: 6.4rem auto;
@@ -38,4 +51,8 @@ fieldset legend {
     border-bottom: 1px solid #d3e2e5;
     margin-bottom: 4rem;
     padding-bottom: 2.4rem;
+}
+
+.input-block + .input-block { /*Esses elementos recerão margin-top por ter campos irmãos antes*/
+    margin-top: 2.4rem;
 }
