@@ -40,3 +40,10 @@ fieldset legend {
     margin-bottom: .8rem;
     line-height: 1.5;
 }
+
+.input-block label span {
+    font-size: 1.4rem;
+    color: #8FA3B3;
+    margin-left: 2.4rem;
+    line-height: 1.5;
+}
