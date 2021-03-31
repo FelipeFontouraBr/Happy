@@ -47,3 +47,20 @@ fieldset legend {
     margin-left: 2.4rem;
     line-height: 1.5;
 }
+
+.input-block input, 
+.input-block textarea {
+    width: 100%; /*Isso já quebra a linha e ocupa 100% da linha */
+
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    border-radius: 2rem;
+
+    color: #5c8599;
+    outline: none;
+}
+
+.input-block input:focus, 
+.input-block textarea:focus {
+    border: 2px solid #15c3d6;
+}
