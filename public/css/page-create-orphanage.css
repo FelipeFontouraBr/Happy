@@ -17,12 +17,10 @@ main {
 }
 
 .map-container footer {
-    margin: 0 0 4rem;
+    background: #f5f8fa;
+    border-radius: 0 0 20px 20px;
 }
 
-.map-container .leaflet-container {
-    border-radius: 20px 20px 0 0;
-}
 
 form {
     width: 70rem;
