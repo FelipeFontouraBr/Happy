@@ -34,3 +34,9 @@ fieldset legend {
 .input-block + .input-block { /*Esses elementos recerão margin-top por ter campos irmãos antes*/
     margin-top: 2.4rem;
 }
+
+.input-block label {
+    color: #8FA3B3;
+    margin-bottom: .8rem;
+    line-height: 1.5;
+}
