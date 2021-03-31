@@ -64,3 +64,15 @@ fieldset legend {
 .input-block textarea:focus {
     border: 2px solid #15c3d6;
 }
+
+.input-block input {
+    height: 6.4rem;
+    padding: 0 1.6rem;
+}
+
+.input-block textarea {
+    height: clamp(12rem, 16rem, 24rem); /*Min: 12rem, ideal: 16rem, Máx: 24rem*/
+    resize: vertical; /*Habilita o ajuste apenas verticalmente*/
+    padding: 1.6rem;
+    line-height: 2.8rem;
+}
