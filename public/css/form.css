@@ -85,4 +85,24 @@ fieldset legend {
     padding: 0 1.6rem;
     margin-top: 2.4rem;
     border-radius: 2rem;
+
+    cursor: pointer;
+}
+
+.new-upload {
+    position: relative; /*Deixar o span em absolute apenas dentro da caixa, coloca a caixa pai como relative*/
+}
+
+.new-upload span {
+    position: absolute;
+    right: 12px;
+    bottom: 14px;
+
+    background: #FFFFFF;
+    display: flex; /*Par alinhar*/
+    border: 1px solid #D3E2E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: .6rem;
+    cursor: pointer;
 }
