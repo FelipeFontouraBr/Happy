@@ -89,6 +89,6 @@ function toggleSelect(event) {
     const input = document.querySelector('[name="open_on_weekends"]')
     
     // verificar sim ou não
-    input.value = button.dataset.value
+    input.value = button1.dataset.value
 
 }
