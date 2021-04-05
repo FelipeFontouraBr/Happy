@@ -36,7 +36,7 @@ function addPhotoField() {
     const container = document.querySelector('#images')
 
     // pegar o container para duplicar .new-image
-    const fieldsContainer = document.querySelectorAll('.new-image')
+    const fieldsContainer = document.querySelectorAll('.new-upload')
 
     // realizar o clone da última imagem adicionada
     const newFieldContainer = fieldsContainer[fieldsContainer.length - 1].cloneNode(true) // Para achar a posição correta do array // -1 para poder começar no zero
