@@ -18,6 +18,9 @@ map.on('click', (event) => { //esta ouvindo o click e vai passar um event //aqui
     const lat = event.latlng.lat;
     const lng = event.latlng.lng;
 
+    // remover icon 
+    marker && map.removeLayer(marker) //remover caso o marker existir
+
     // add icon layer
     marker = L.marker([lat, lng], { icon })
     .addTo(map)
