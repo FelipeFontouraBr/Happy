@@ -97,6 +97,10 @@ fieldset legend {
     position: relative; /*Deixar o span em absolute apenas dentro da caixa, coloca a caixa pai como relative*/
 }
 
+.new-upload + .new-upload {
+    margin-top: 2.4rem;
+}
+
 .new-upload span {
     position: absolute;
     right: 12px;
