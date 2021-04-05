@@ -18,6 +18,9 @@ map.on('click', (event) => { //esta ouvindo o click e vai passar um event //aqui
     const lat = event.latlng.lat;
     const lng = event.latlng.lng;
 
+    document.querySelector('[name=lat]').value = lat; //pegando toda tag que tem name=lat //quando adicionar um ., quer dizer que estamos adicionando alguma propriedade
+    document.querySelector('[name=lng]').value = lng;
+
     // remover icon 
     marker && map.removeLayer(marker) //remover caso o marker existir
 
