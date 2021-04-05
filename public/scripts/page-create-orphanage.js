@@ -55,3 +55,19 @@ function addPhotoField() {
     container.appendChild(newFieldContainer)
 }
 
+// Excluir a opção a mais de add fotos
+// Permitir que o botão exclua só apartir da segunda opção
+function deleteField(event) {
+    const span = event.currentTarget
+    
+    const fieldsContainer = document.querySelectorAll('.new-upload')
+
+    if(fieldsContainer.length < 2) {
+        // limpar o valor do campo
+        span.parentNode.children[0].value = "" //peguei o campo pai, e limpei o campo filho (span, que está na posição zero)
+        return 
+    }
+
+    // deletar o campo
+    span.parentNode.remove()
+}
