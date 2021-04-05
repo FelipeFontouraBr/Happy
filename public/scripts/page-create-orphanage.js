@@ -41,9 +41,17 @@ function addPhotoField() {
     // realizar o clone da última imagem adicionada
     const newFieldContainer = fieldsContainer[fieldsContainer.length - 1].cloneNode(true) // Para achar a posição correta do array // -1 para poder começar no zero
 
+    // verificar se o campo está vazio, se sim, não adicionaro ao container de fotos
+    const input = newFieldContainer.children[0]
+
+    if(input.value == "") {
+        return
+    }
+
     // limpar o campo antes de adicionar ao container de imagens
-    newFieldContainer.children[0].value = ""
+    input.value = ""
 
     // adicionar o clone ao container de #images
     container.appendChild(newFieldContainer)
 }
+
