@@ -28,3 +28,16 @@ map.on('click', (event) => { //esta ouvindo o click e vai passar um event //aqui
     marker = L.marker([lat, lng], { icon })
     .addTo(map)
 }) 
+
+// adicionar o campo de fotos
+function addPhotoField() {
+
+    // pegar o container de fotos #images
+    
+
+    // pegar o container para duplicar .new-images
+
+    // realizar o clone da última imagem adicionada
+
+    // adicionar o clone ao container de #images
+}
