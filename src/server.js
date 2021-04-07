@@ -10,9 +10,13 @@ server
 // utilizando os arquivos estáticos
 .use(express.static('public'))
 
+// configurar tamplate engine
+.set('views', path.join(__dirname, "views"))
+.set('view egine', 'hbs')
+
 // criar uma rota
 .get('/', (request, response) => {
-    return response.sendFile(path.join(__dirname, 'views', 'index.html'))
+    return response.render('index')
 })
 
 // ligar o servidor
