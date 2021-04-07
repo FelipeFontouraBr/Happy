@@ -5,8 +5,13 @@ const path = require('path')
 // iniciando o express
 const server = express()
 
+
+server
+// utilizando os arquivos estáticos
+.use(express.static('public'))
+
 // criar uma rota
-server.get('/', (request, response) => {
+.get('/', (request, response) => {
     return response.sendFile(path.join(__dirname, 'views', 'index.html'))
 })
 
