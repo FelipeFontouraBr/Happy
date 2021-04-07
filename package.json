@@ -4,7 +4,7 @@
   "description": "<h1 align=\"center\">     <img alt=\"Happy\" title=\"Happy\" src=\".github/logo-git.png\" /> </h1>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
