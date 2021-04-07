@@ -12,7 +12,7 @@ server
 
 // configurar tamplate engine
 .set('views', path.join(__dirname, "views"))
-.set('view egine', 'hbs')
+.set('view engine', 'hbs')
 
 // criar uma rota
 .get('/', (request, response) => {
