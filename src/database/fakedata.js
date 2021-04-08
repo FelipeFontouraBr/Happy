@@ -5,7 +5,7 @@ module.exports = [
     {
         id: 1,
         lat: "38.8795955",
-        lng: "-6.9802756",
+        lng: "-6.9602756",
         name: "Lar das meninas",
         description: "Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social",
         images: [
