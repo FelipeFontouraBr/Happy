@@ -1,9 +1,7 @@
 const Database = require('sqlite-async'); //chamando o sqlite do node_modules
 
-Database.open(__dirname + '/database.sqlite').then(execute) //Pedindo para o sqlite abrir o diretório local e coloque na pasta um arquivo chamado database.qlite
-
 function execute(db) {
-    db.exec(`
+    return db.exec(`
         CREATE TABLE IF NOT EXIST orphanages (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             lat TEXT,
@@ -18,3 +16,5 @@ function execute(db) {
         );
     `)
 }
+
+module.exports = Database.open(__dirname + '/database.sqlite').then(execute) //Pedindo para o sqlite abrir o diretório local e coloque na pasta um arquivo chamado database.qlite
