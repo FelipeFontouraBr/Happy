@@ -2,7 +2,7 @@ const Database = require('sqlite-async'); //chamando o sqlite do node_modules
 
 function execute(db) {
     return db.exec(`
-        CREATE TABLE IF NOT EXIST orphanages (
+        CREATE TABLE IF NOT EXISTS orphanages (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             lat TEXT,
             lng TEXT,
