@@ -2,7 +2,7 @@ const Database = require('./db')
 
 Database.then(async (db) => {
     // inserir dados na tabela 
-    await db.run(`
+    /*await db.run(`
         INSERT INTO orphanages (
             lat, 
             lng,
@@ -23,9 +23,13 @@ Database.then(async (db) => {
             "Horário de visitas das 18h até 8h",
             "2"
         );
-    `)
+    `)*/
 
     // consultar dados na tabela
-    const selectdOrphanages = await db.all("SELECT * FROM orphanages")
-    console.log(selectdOrphanages)
+    /*const selectdOrphanages = await db.all("SELECT * FROM orphanages")
+    console.log(selectdOrphanages)*/
+
+    // consultar somente 1 orphanato, pelo id
+    const orphanage = await db.all('SELECT * FROM orphanages WHERE id = "2"')
+    console.log(orphanage)
 })
