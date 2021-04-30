@@ -7,8 +7,8 @@ Database.then(async (db) => {
     await saveOrphanage(db, {
             id: 1,
             lat: "38.8795955",
-            lng: "-6.9602756",
-            name: "Lar das meninas",
+            lng: "-6.9702756",
+            name: "Lar dos meninos",
             about:"Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social",
             whatsapp:"6550336458",
             images: [
@@ -22,12 +22,12 @@ Database.then(async (db) => {
     })
 
     // // consultar dados na tabela
-    // const selectdOrphanages = await db.all("SELECT * FROM orphanages")
-    // console.log(selectdOrphanages)
+    const selectdOrphanages = await db.all("SELECT * FROM orphanages")
+    console.log(selectdOrphanages)
 
     // // consultar somente 1 orphanato, pelo id
-    // const orphanage = await db.all('SELECT * FROM orphanages WHERE id = "3"')
-    // console.log(orphanage)
+    const orphanage = await db.all('SELECT * FROM orphanages WHERE id = "3"')
+    console.log(orphanage)
 
     // // deletar dado da tabela
     // console.log(await db.run("DELETE FROM orphanages WHERE id = '4'"))
