@@ -1,7 +1,8 @@
 // Responsável por conter as funções das rotas .get
 
 // importação dos módulos
-const orphanages = require('./database/fakedata.js');
+const Database = require('./database/db');
+const saveOrphanage = require('./database/saveOrphanage');
 
 module.exports = { // Essa linha exporta o objeto para o arquivo server.js
 
@@ -11,8 +12,16 @@ module.exports = { // Essa linha exporta o objeto para o arquivo server.js
     orphanage(req,res) {
         return res.render('orphanage')
     },
-    orphanages(req, res) {
-        return res.render('orphanages', { orphanages })
+    async orphanages(req, res) {
+        try {
+            const db = await Database;
+            const orphanages = await db.all("SELECT * FROM orphanages")
+            return res.render('orphanages', { orphanages })
+        } catch (error) {
+            console.log(error)
+            return res.send('Erro no banco de dados')
+        }
+        
     },
     createOrphanage(req,res) {
         return res.render('create-orphanage')
