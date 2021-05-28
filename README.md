@@ -27,7 +27,7 @@ Happy is an application that connects people to institutional care homes to make
 
 - Node.js;
 - Express.js;
-- Sqlite
+- Sqlite;
 
 ## 🔖 Layout
 
